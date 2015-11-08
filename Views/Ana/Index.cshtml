@@ -1,0 +1,33 @@
+﻿@model inbelik.Models.degiskenler
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <META http-equiv=content-type content=text/html;charset =iso-8859-9>
+    <META http-equiv=content-type content=text/html;charset =windows-1254>
+    <META http-equiv=content-type content=text/html;charset =x-mac-turkish>
+    <meta name="viewport" content="width=device-width" />
+    <title>Seni Ölçüyorum</title>
+</head>
+<body>
+    <div>
+        <center>
+           @using (Html.BeginForm()) { 
+            <p>İsmini Gir : @Html.TextBoxFor(x=>x.ad) </p>
+            <p> <input type="submit" value="Gir Bakalım" /></p>
+           }
+
+              
+
+
+
+             
+        </center>
+    </div>
+</body>
+</html>

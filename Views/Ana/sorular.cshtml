@@ -1,0 +1,44 @@
+﻿@model inbelik.Models.degiskenler
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <META http-equiv=content-type content=text/html;charset =iso-8859-9>
+    <META http-equiv=content-type content=text/html;charset =windows-1254>
+    <META http-equiv=content-type content=text/html;charset =x-mac-turkish>
+
+    <meta name="viewport" content="width=device-width" />
+    <title>sorular</title>
+</head>
+<body>
+    <div> <center>
+    Bu adam mıdır? <br /> <br/>
+    <img src="~/img/celibon.png" width="200" height="200"/> <br /><br />
+    <input type="button" value="Adamdır" onclick="adamdir_butonu()" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button" value="İbnenin Tekidir" onclick="adam_degildir_butonu()" />
+
+    <script>
+        function adamdir_butonu() {
+            window.location = 'emin'
+          
+            
+        }
+
+        function adam_degildir_butonu() {
+            window.location = 'emin'
+        }
+    </script>
+
+</center>
+
+
+
+        
+    </div>
+</body>
+</html>
